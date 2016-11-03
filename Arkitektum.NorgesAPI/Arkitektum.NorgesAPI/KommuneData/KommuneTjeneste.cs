@@ -28,7 +28,7 @@ namespace Arkitektum.NorgesAPI.KommuneData
         {
             try
             {
-                string respons = _downloadManager.Download(KommunenummerOppslagUrl);
+                string respons = _downloadManager.Download(string.Format(KommunenummerOppslagUrl, kommuneNummer));
 
                 JObject kommuneJson = JObject.Parse(respons);
                 string navn = (string) kommuneJson["label"];
