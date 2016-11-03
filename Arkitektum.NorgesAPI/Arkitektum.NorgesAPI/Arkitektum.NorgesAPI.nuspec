@@ -5,9 +5,10 @@
     <version>$version$</version>
     <title>$title$</title>
     <authors>Henning Jensen (henning@arkitektum.no)</authors>
-    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Arkitektum/Arkitektum.NorgesAPI/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Arkitektum/Arkitektum.NorgesAPI</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Tilbyr tjenester for oppslag av offentlig informasjon. F.eks. oppslag på kommunenavn fra kommunenummer.</description>
+    <description>Tilbyr C# API for oppslag av offentlig informasjon. F.eks. oppslag på kommunenavn fra kommunenummer.</description>
     <releaseNotes>Version 1.0 - Oppslag av kommunenavn fra nummer</releaseNotes>
     <copyright>Copyright 2016</copyright>
   </metadata>
