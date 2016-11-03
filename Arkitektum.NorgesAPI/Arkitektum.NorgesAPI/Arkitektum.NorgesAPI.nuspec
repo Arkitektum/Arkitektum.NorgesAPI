@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Henning Jensen (henning@arkitektum.no)</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tilbyr tjenester for oppslag av offentlig informasjon. F.eks. oppslag på kommunenavn fra kommunenummer.</description>
+    <releaseNotes>Version 1.0 - Oppslag av kommunenavn fra nummer</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+</package>

@@ -1,0 +1,18 @@
+{
+  "id": "https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer/kartverket/0822",
+  "label": "Sauherad",
+  "itemclass": "CodelistValue",
+  "uuid": "6176405b-d2c9-4147-a210-b69aa0dad332",
+  "status": "Sendt inn",
+  "description": "Sauherad",
+  "owner": "Kartverket",
+  "versionNumber": 1,
+  "versions": [],
+  "lastUpdated": "2015-05-26T14:40:16.177",
+  "dateSubmitted": "2015-05-26T14:40:16.177",
+  "dateAccepted": "0001-01-01T00:00:00",
+  "codevalue": "0822",
+  "narrower": [],
+  "AlertDate": "0001-01-01T00:00:00",
+  "EffectiveDate": "0001-01-01T00:00:00"
+}
