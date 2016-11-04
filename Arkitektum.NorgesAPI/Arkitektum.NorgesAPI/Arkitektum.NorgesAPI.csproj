@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fylke.cs" />
+    <Compile Include="Tjenester\FylkeTjeneste.cs" />
+    <Compile Include="Tjenester\IFylkeTjeneste.cs" />
     <Compile Include="Util\DownloadManager.cs" />
     <Compile Include="Util\IDownloadManager.cs" />
     <Compile Include="Tjenester\IKommuneTjeneste.cs" />

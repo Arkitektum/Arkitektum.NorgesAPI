@@ -83,10 +83,14 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Tjenester\FylkeTjenesteTest.cs" />
     <Compile Include="Tjenester\KommuneTjenesteTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Tjenester\fylker.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Tjenester\kommune.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
