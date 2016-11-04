@@ -3,7 +3,7 @@ using System.Diagnostics;
 using Arkitektum.NorgesAPI.Util;
 using Newtonsoft.Json.Linq;
 
-namespace Arkitektum.NorgesAPI.KommuneData
+namespace Arkitektum.NorgesAPI.Tjenester
 {
     public class KommuneTjeneste : IKommuneTjeneste
     {

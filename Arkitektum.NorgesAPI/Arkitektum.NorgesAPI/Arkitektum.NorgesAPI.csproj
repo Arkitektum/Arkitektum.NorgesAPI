@@ -45,11 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Util\DownloadManager.cs" />
-    <Compile Include="KommuneData\GeonorgeKommuneRegister.cs" />
     <Compile Include="Util\IDownloadManager.cs" />
-    <Compile Include="KommuneData\IKommuneTjeneste.cs" />
-    <Compile Include="KommuneData\Kommune.cs" />
-    <Compile Include="KommuneData\KommuneTjeneste.cs" />
+    <Compile Include="Tjenester\IKommuneTjeneste.cs" />
+    <Compile Include="Kommune.cs" />
+    <Compile Include="Tjenester\KommuneTjeneste.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

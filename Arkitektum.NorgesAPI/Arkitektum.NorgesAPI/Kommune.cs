@@ -1,4 +1,4 @@
-namespace Arkitektum.NorgesAPI.KommuneData
+namespace Arkitektum.NorgesAPI
 {
     public class Kommune
     {

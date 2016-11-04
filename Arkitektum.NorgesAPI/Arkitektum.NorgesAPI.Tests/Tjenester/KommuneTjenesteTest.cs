@@ -1,18 +1,18 @@
 using System;
 using System.IO;
-using Arkitektum.NorgesAPI.KommuneData;
+using Arkitektum.NorgesAPI.Tjenester;
 using Arkitektum.NorgesAPI.Util;
 using FluentAssertions;
 using Moq;
 using Xunit;
 
-namespace Arkitektum.NorgesAPI.Tests.KommuneData
+namespace Arkitektum.NorgesAPI.Tests.Tjenester
 {
     public class KommuneTjenesteTest
     {
         private string KommuneJson()
         {
-            return File.ReadAllText($"{AppDomain.CurrentDomain.BaseDirectory}\\KommuneData\\kommune.json");
+            return File.ReadAllText($"{AppDomain.CurrentDomain.BaseDirectory}\\Tjenester\\kommune.json");
         }
 
         [Fact]

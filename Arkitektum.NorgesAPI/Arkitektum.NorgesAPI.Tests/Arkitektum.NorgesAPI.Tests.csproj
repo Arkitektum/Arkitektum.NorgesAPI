@@ -83,11 +83,11 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="KommuneData\KommuneTjenesteTest.cs" />
+    <Compile Include="Tjenester\KommuneTjenesteTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="KommuneData\kommune.json">
+    <None Include="Tjenester\kommune.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
